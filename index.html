@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fables">
+    <meta name="author" content="Enterprise Development">
+    <link rel="shortcut icon" href="assets/custom/images/shortcut.png">
+
+    <title> IDMCODES </title>
+    
+    <!-- animate.css-->  
+    <link href="assets/vendor/animate.css-master/animate.min.css" rel="stylesheet">
+    <!-- Load Screen -->
+    <link href="assets/vendor/loadscreen/css/spinkit.css" rel="stylesheet">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <!-- Font Awesome 5 -->
+    <link href="assets/vendor/fontawesome/css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- Fables Icons -->
+    <link href="assets/custom/css/fables-icons.css" rel="stylesheet"> 
+    <!-- Bootstrap CSS --> 
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap-4-navbar.css" rel="stylesheet">
+    <!-- portfolio filter gallery -->
+    <link href="assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css" rel="stylesheet">
+    <!-- Video Background -->
+    <link href="assets/vendor/video-background/video-background.css" rel="stylesheet"> 
+    <!-- FANCY BOX -->
+    <link href="assets/vendor/fancybox-master/jquery.fancybox.min.css" rel="stylesheet"> 
+    <!-- RANGE SLIDER -->
+    <link href="assets/vendor/range-slider/range-slider.css" rel="stylesheet">
+    <!-- OWL CAROUSEL  --> 
+    <link href="assets/vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
+    <!-- FABLES CUSTOM CSS FILE -->
+    <link href="assets/custom/css/custom.css" rel="stylesheet">
+    <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
+    <link href="assets/custom/css/custom-responsive.css" rel="stylesheet">
+    
+     
+</head>
+
+<body>
+
+
+<div class="search-section">
+    <a class="close-search" href="#"></a>
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <form method="post" action="#" class="w-50">
+            <div class="row">
+                <div class="col-10">
+                    <input type="search" value="" class="form-control palce bg-transparent border-0 search-input" placeholder="Search Here ..." /> 
+                </div>
+                <div class="col-2 mt-3">
+                     <button type="submit" class="btn bg-transparent text-white"> <i class="fas fa-search"></i> </button>
+                </div>
+            </div>
+        </form>
+    </div>
+         
+</div>
+
+<!-- Loading Screen -->
+    <div id="ju-loading-screen">
+      <div class="sk-double-bounce">
+        <div class="sk-child sk-double-bounce1"></div>
+        <div class="sk-child sk-double-bounce2"></div>
+      </div>
+    </div>
+    
+    
+    
+<!-- /End Top Header -->
+
+<!-- Start Fables Navigation -->
+<div class="fables-navigation fables-main-background-color py-3 py-lg-0">
+    <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-9 pr-md-0">                       
+                    <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
+        
+                        <a class="brand" href="index.html" style="font-weight: bold; font-size: 24px; color: #E54D42;">IDMCODES</a>
+
+                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fablesNavDropdown" aria-controls="fablesNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                             <span class="fables-iconmenu-icon text-white font-16"></span>
+                         </button>
+                         <div class="collapse navbar-collapse" id="fablesNavDropdown"> 
+                             <ul class="navbar-nav mx-auto fables-nav">   
+
+                                 <li class="nav-item dropdown">
+                                     <a class="nav-link dropdown-toggle" href="#" id="sub-nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                         Services
+                                     </a>
+                                     <ul class="dropdown-menu" aria-labelledby="sub-nav2">
+                                         <li><a class="dropdown-item" href="services.html?service=service1" onclick="showService('service1')">Advisory Services</a></li>
+                                         <li><a class="dropdown-item" href="services.html?service=service2" onclick="showService('service2')">Managed Security Services</a></li>
+                                         <li><a class="dropdown-item" href="services.html?service=service3" onclick="showService('service3')">Oracle Managed Services</a></li>
+                                         <li><a class="dropdown-item" href="services.html?service=service4" onclick="showService('service4')">Implementation Services</a></li>
+                                         <li><a class="dropdown-item" href="services.html?service=service5" onclick="showService('service5')">Professional Services</a></li> 
+                                     </ul>
+                                 </li>
+                                 <li class="nav-item dropdown">
+                                     <a class="nav-link dropdown-toggle" href="#" id="sub-nav3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                         Solutions
+                                     </a>
+                                     <ul class="dropdown-menu" aria-labelledby="sub-nav3">
+                                         <li><a class="dropdown-item" href="solutions.html?solution=solution1" onclick="showService('solution1')">Identity Access and Management</a></li>
+                                         <li><a class="dropdown-item" href="solutions.html?solution=solution2" onclick="showService('solution2')">Security Operations Center</a></li>
+                                         <li><a class="dropdown-item" href="solutions.html?solution=solution3" onclick="showService('solution3')">Infrastrutre Solutions</a></li> 
+                                     </ul>
+                                 </li>
+                                 
+                                 <li class="nav-item dropdown">
+                                     <a class="nav-link dropdown-toggle" href="#" id="sub-nav5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                         Resources
+                                     </a>
+                                     <ul class="dropdown-menu" aria-labelledby="sub-nav5">
+                                         <li><a class="dropdown-item" href="blog1.html">Blog</a></li>
+                                         <li><a class="dropdown-item" href="papers.html">Papers</a></li>
+                                     </ul>
+                                 </li> 
+
+                                 <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="sub-nav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Company
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="sub-nav1">
+                                        <li><a class="dropdown-item" href="about.html">About Idmcodes</a></li>
+                                        <li><a class="dropdown-item" href="carrers.html">Carrers</a></li>
+                                        <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                                        <li><a class="dropdown-item" href="contactus.html">Contact US</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="partners.html" id="sub-nav5"  aria-expanded="false">
+                                        Partners
+                                    </a>
+                                </li>
+                             </ul> 
+                 </div>
+             </nav>
+                </div>
+                <div class="col-12 col-md-2 col-lg-3 pr-md-0 icons-header-mobile">
+                     <a href="#" class="open-search fables-third-text-color right  top-header-link px-3 px-md-2 px-lg-4 fables-second-hover-color border-0 max-line-height">
+                         <span class="fables-iconsearch-icon"></span>
+                     </a>
+                      <a href="signin.html" class="fables-third-text-color fables-second-hover-color font-13 top-header-link px-3 px-md-2 px-lg-4 max-line-height"><span class="fables-iconuser"></span></a>
+                 </div>
+                </div>
+            </div>
+    </div>
+</div> 
+<!-- /End idmcodes Navigation -->  
+     
+<!-- Start Header -->
+<div class="fables-header fables-after-overlay overlay-lighter bg-rules" style="background-image: url(assets/custom/images/home.webp);">
+    <div class="container overflow-hidden">  
+        <div class="owl-carousel owl-theme default-carousel fables-sqr-nav dots-0 wow fadeInUpBig" data-wow-duration="2s">
+            <div>
+                <h1 class="white-color bold-font mt-lg-5 mb-4">WELCOME TO IDMCODES <br> 
+                   <span class="fables-second-text-color">ALL FOR ONE</span>
+                </h1>  
+                <p class="fables-third-text-color mt-3 mb-5 light-font fables-header-slider-details">
+                  Your one-stop solution for all security-related challenges and needs. 
+                </p>
+                <a href="services.html" class="btn fables-second-background-color fables-second-border-color white-color rounded-0 mr-4 px-md-4 py-2 btn-bg-hover  white-color-hover">Our Services</a>
+                <a href="services.html" class="btn fables-second-border-color white-color rounded-0 px-md-4 py-2 fables-second-hover-background-color">Learn More</a>  
+            </div> 
+
+              <div>
+                  <h1 class="white-color bold-font mt-lg-5 mb-4">EMPOWERING SECURITY INNOVATION <br> 
+                     <span class="fables-second-text-color">We help you in finding and implementing these security solutions:</span>
+                  </h1>  
+                  <p class="fables-third-text-color mt-3 mb-5 light-font fables-header-slider-details">
+                    Social Engineering Defense (SED), <br>
+                    Identity and Access Management (IAM), <br>
+                    Security Operations Center (SOC) 
+                  </p>
+                  <a href="#" class="btn fables-second-background-color fables-second-border-color white-color rounded-0 mr-4 px-md-4 py-2 btn-bg-hover white-color-hover">Our Services</a>
+                  <a href="#" class="btn fables-second-border-color white-color rounded-0 px-md-4 py-2 fables-second-hover-background-color">Learn More</a>  
+              </div> 
+
+        </div>
+    </div>
+</div>  
+<!-- /End Header -->
+     
+ 
+     
+<!-- Start page content -->
+<div class="fables-page-content">  
+       
+       <div class="container overflow-hidden">
+          <h2 class="text-center fables-forth-text-color font-40 bold-font" style="font-weight: bold; color: #E54D42;">our work process</h2>
+           <h2 class="text-center fables-main-text-color font-25 my-lg-3 smaller-head-text">
+            Have you had a recent security breach or incident? We implement IAM and SOC security solutions for Global Enterprises.
+           </h2>
+           <div class="row">
+               <div class="col-md-3 col-sm-4 mb-4 wow fadeInUpBig" data-wow-duration="2s">
+                   <div class="image-container translate-effect-right">
+                       <a href="#"><img src="assets/custom/images/index1.jpg" alt="" class="img-fluid w-100"></a>
+                   </div>
+                   <h2 class="font-22 mt-3 mb-2 d-block text-center text-md-left">
+                       <a href="#" class="fables-second-text-color fables-main-hover-color"> Implemention Services</a>
+                   </h2>
+                   <p class="fables-forth-text-color light-font d-none d-md-block">
+                    Need a security solution quickly? Our specialists implement the individual solutions you need with uncompromising expertise.
+                   </p>
+               </div>
+               <div class="col-md-3 col-sm-4 mb-4 wow fadeInUpBig" data-wow-duration="2s">
+                   <div class="image-container translate-effect-right">
+                       <a href="#"><img src="assets/custom/images/index2.jpg" alt="" class="img-fluid w-100"></a>
+                   </div>
+                   <h2 class="font-22 mt-3 mb-2 d-block text-center text-md-left">
+                       <a href="#" class="fables-second-text-color fables-main-hover-color"> Advisory Services</a>
+                   </h2>
+                   <p class="fables-forth-text-color light-font d-none d-md-block">
+                    Need to understand your current risks? We audit, assess, and analyze your existing security threats and vulnerabilities.
+                   </p>
+               </div>
+               <div class="col-md-3 col-sm-4 mb-4 wow fadeInUpBig" data-wow-duration="2s">
+                   <div class="image-container translate-effect-right">
+                       <a href="#"><img src="assets/custom/images/managedsecurityimage.png" alt="" class="img-fluid w-100"></a>
+                   </div>
+                   <h2 class="font-22 mt-3 mb-2 d-block text-center text-md-left">
+                       <a href="#" class="fables-second-text-color fables-main-hover-color"> Managed Security Services</a>
+                   </h2>
+                   <p class="fables-forth-text-color light-font d-none d-md-block">
+                    Need ongoing IT support? We offer 24/7 Managed IAM and SOC services that outperform in-house teams at a fraction of the cost.
+                   </p>
+               </div>
+               <div class="col-md-3 col-sm-4 mb-4 wow fadeInUpBig" data-wow-duration="2s">
+                <div class="image-container translate-effect-right">
+                    <a href="#"><img src="assets/custom/images/index3.jpg" alt="" class="img-fluid w-100"></a>
+                </div>
+                <h2 class="font-22 mt-3 mb-2 d-block text-center text-md-left">
+                    <a href="#" class="fables-second-text-color fables-main-hover-color"> Professional Services</a>
+                </h2>
+                <p class="fables-forth-text-color light-font d-none d-md-block">
+                    Need expert IT Staff? We have a team of dedicated experts who consult and provide services to global organizations on all things IAM and SOC.
+                </p>
+            </div>
+           </div>
+       </div>
+       <div class="container-fluid overflow-hidden">
+           <div class="row mt-0 mt-lg-5">
+               <div class="col-12 col-md-6 p-0"> 
+                   <div style="background-image: url(assets/custom/images/overlay1.jpg);">
+                       <div class="fables-second-color-transparent p-6">
+                           <h2 class="white-color font-weight-bold mb-4 font-35 wow fadeInLeft">Identity & Access <br>Mangement Solutions</h2>
+                           <p class="fables-third-text-color wow fadeInLeft">
+                            Global expertise, process oriented framework and best-in-class partners differentiates us
+                           </p>
+                           <a href="#" class="btn border border-white white-color rounded-0 my-4 py-2 px-5  wow fadeInLeft bg-white-hover fables-second-hover-color">Learn More</a> 
+                       </div>
+                   </div>
+                   
+               </div>
+               <div class="col-12 col-md-6 px-6">
+                  <div class="row">
+                      <div class="col-12 col-sm-6 my-4 text-center text-md-left wow fadeInRight">
+                          <span class="fables-iconbussiness fables-second-text-color fa-3x"></span>
+                          <h2 class="fables-main-text-color font-18 my-2">Identity Governance & Administration (IGA)</h2>
+                          <p class="fables-forth-text-color font-weight-light">
+                            We provide end-to-end guidance and expertise on IGA solutions.
+                          </p>
+                      </div>
+                      <div class="col-12 col-sm-6 my-4 text-center text-md-left wow fadeInRight">
+                          <span class="fables-iconbussiness2 fables-second-text-color fa-3x"></span>
+                          <h2 class="fables-main-text-color font-18 my-2">Privileged Access Management (PAM)</h2>
+                          <p class="fables-forth-text-color font-weight-light">
+                            We manage privileged identites for secure access to resources. 
+                          </p>
+                      </div>
+                      <div class="col-12 col-sm-6 my-4 text-center text-md-left wow fadeInRight">
+                          <span class="fables-iconpassword fables-second-text-color fa-3x"></span>
+                          <h2 class="fables-main-text-color font-18 my-2">Multi-Factor Authentication (MFA)</h2>
+                          <p class="fables-forth-text-color font-weight-light">
+                            Want to add an additional layer of security for your organization? <br>We'll set up your modern MFA solution. 
+                          </p>
+                      </div>
+                      <div class="col-12 col-sm-6 my-4 text-center text-md-left wow fadeInRight">
+                          <span class="fables-iconwebDesign-icon fables-second-text-color fa-3x"></span>
+                          <h2 class="fables-main-text-color font-18 my-2">Single Sign-On Solution (SSO) </h2>
+                          <p class="fables-forth-text-color font-weight-light">
+                            Want to upgrade to Okta or implement SSO for your applications?
+                          </p>
+                      </div>
+                  </div> 
+               </div>
+           </div>
+       </div>
+       
+       <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+           <div class="container">
+               <div class="row">
+                   <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                           <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold">Working towards your business goals</h3>  
+                           <p class="font-weight-light fables-third-text-color">"As your dedicated partner, we're committed to aligning with your unique business objectives. Our tailored solutions, expert guidance, and unwavering support are designed to empower you, ensuring your business reaches its full potential. We work relentlessly, hand in hand with you, to achieve your aspirations and drive success."
+                           </p>
+                           <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a> 
+ 
+                       
+                   </div> 
+               </div>
+               
+           </div>
+       </div>
+       <div class="container my-4 my-lg-5"> 
+            <div class="row">
+               <div class="col-12 col-md-8 offset-md-2">
+                   <div class="text-center">
+                       <h2 class="fables-main-text-color font-35 font-weight-bold mt-0 mb-4 ">Latest Works</h2>
+                       <p class="fables-forth-text-color mb-5">
+                        our recent work centers on fortifying security through Identity and Access Management (IAM), Security Operation Center (SOC) and Security Information and Event Management (SIEM). I've implemented cutting-edge IAM solutions, including Single Sign-On and Multi-Factor Authentication, while enhancing SIEM systems for real-time threat detection and response. My focus is on seamless security with user-centricity.
+                       </p>
+                   </div>
+               </div>
+           </div>
+            <div class="row">
+               <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                    <div class="filter-img-block position-relative image-container translate-effect-right"> 
+                             <img src="assets/custom/images/blog-slider2.jpg" alt="image" class="img-fluid w-100"> 
+                         <div class="img-filter-overlay fables-main-color-transparent flex-center">
+                             <a href="#" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconlink "></span></a>
+                             <a data-fancybox="gallery" href="assets/custom/images/blog-slider2.jpg" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconsearch-icon"></span></a>
+                         </div>
+                     </div>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                    <div class="filter-img-block position-relative image-container translate-effect-right">
+                         <img src="assets/custom/images/blog-slider3.jpg" alt="image" class="img-fluid w-100">
+                         <div class="img-filter-overlay fables-main-color-transparent flex-center">
+                             <a href="#" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconlink"></span></a>
+                             <a data-fancybox="gallery" href="assets/custom/images/blog-slider3.jpg" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconsearch-icon"></span></a>
+                         </div>
+                     </div>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                    <div class="filter-img-block position-relative image-container translate-effect-right">
+                         <img src="assets/custom/images/blog-slider1.jpg" alt="image" class="img-fluid w-100">
+                         <div class="img-filter-overlay fables-main-color-transparent flex-center">
+                             <a href="#" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconlink"></span></a>
+                             <a data-fancybox="gallery" href="assets/custom/images/blog-slider1.jpg" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconsearch-icon"></span></a>
+                         </div>
+                     </div>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                    <div class="filter-img-block position-relative image-container translate-effect-right">
+                         <img src="assets/custom/images/blog-slider2.jpg" alt="image" class="img-fluid w-100">
+                         <div class="img-filter-overlay fables-main-color-transparent flex-center">
+                             <a href="#" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconlink "></span></a>
+                             <a data-fancybox="gallery" href="assets/custom/images/blog-slider2.jpg" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconsearch-icon"></span></a>
+                         </div>
+                     </div>
+                  </div>
+
+                  <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                    <div class="filter-img-block position-relative image-container translate-effect-right">
+                         <img src="assets/custom/images/blog-slider3.jpg" alt="image" class="img-fluid w-100">
+                         <div class="img-filter-overlay fables-main-color-transparent flex-center">
+                             <a href="#" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconlink"></span></a>
+                             <a data-fancybox="gallery" href="assets/custom/images/blog-slider3.jpg" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconsearch-icon"></span></a>
+                         </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+                    <div class="filter-img-block position-relative image-container translate-effect-right">
+                         <img src="assets/custom/images/blog-slider1.jpg" alt="image" class="img-fluid w-100">
+                         <div class="img-filter-overlay fables-main-color-transparent flex-center">
+                             <a href="#" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconlink mx-2"></span></a>
+                             <a data-fancybox="gallery" href="assets/custom/images/blog-slider1.jpg" class="fables-third-text-color fables-second-hover-color work-icon mx-3"><span class="fables-iconsearch-icon"></span></a>
+                         </div>
+                     </div>
+                  </div>
+                  <a href="" class="btn fables-second-border-color fables-second-text-color rounded-0 mt-4 mx-auto px-5 py-2 fables-second-hover-background-color">See all projects</a>
+           </div> 
+       </div>
+       <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5">
+           <div class="container">
+               <div class="row">
+                      <div class="col-12 col-md-8"> 
+                           <h3 class="position-relative z-index white-color mb-3 font-25 font-weight-bold">Trust us to keep your Digital environment Secure!s</h3>  
+                           <p class="position-relative z-index font-weight-light fables-third-text-color">We earn our customers’ trust through our excellence, which results from hard work, commitment, passion, and dedication from our highly skilled employees built with unique Idmcodes culture.</p>
+                           
+                       </div> 
+                   <div class="col-12 col-md-4 offset-xl-2 col-xl-2 text-center">
+                        <a href="contactus1.html" class="btn fables-second-background-color fables-btn-rounded white-color mt-3 position-relative z-index font-19 px-5 white-color-hover">Contact us</a> 
+                   </div>
+               </div> 
+               
+           </div>
+       </div>
+       <div class="container">
+           <div class="row">
+              <div class="col-12">
+                  <h2 class="font-35 font-weight-bold fables-main-text-color my-3 my-lg-5 my-md-4 text-center">Featured Resources</h2>
+                  <h2 class="font-20  fables-main-text-color my-3 my-lg-5 my-md-4 text-center">We partner with the top Identity and Access Management products, and have expertise implementing all of them.</h2>
+              </div>
+               <div class="col-12 col-md-4 mb-4 mb-lg-5 wow fadeIn" data-wow-delay=".3s">
+                  <div class="position-relative"> 
+                      <div class="image-container translate-effect-right">
+                          <a href="#"><img src="assets/custom/images/iot101.png" alt="" class="img-fluid w-100"></a> 
+                      </div> 
+                      
+                      <h2 class="font-18 my-3"><a href="#" class="fables-main-text-color fables-second-hover-color">IoT Security 101: Tips For Safeguarding Your Smart Devices and Networks</a></h2>
+                      
+                      <p class="fables-forth-text-color font-14 mb-2">
+                        In the recent years, the internet of things has grown so rapidly that the development…
+                      </p>
+                      <a href="" class="btn fables-second-text-color fables-main-hover-color p-0 font-15 border-0">Read More  <i class="fas fa-long-arrow-alt-right"></i></a> 
+                  </div> 
+              </div>
+              <div class="col-12 col-md-4 mb-4 mb-lg-5 wow fadeIn" data-wow-delay=".6s">
+                  <div class="position-relative"> 
+                      <div class="image-container translate-effect-right">
+                          <a href="#"><img src="assets/custom/images/iot101.png" alt="" class="img-fluid w-100"></a> 
+
+                      </div>
+                      <h2 class="font-18 my-3"><a href="#" class="fables-main-text-color fables-second-hover-color">The Growing Threat Landscape For Medical Devices: Challenges and Risks</a></h2>
+                       
+                      <p class="fables-forth-text-color font-14 mb-2">
+                        The growing threat landscape for medical devices presents significant challenges and risks to both healthcare…
+                      </p>
+                      <a href="" class="btn fables-second-text-color fables-main-hover-color p-0 font-15 border-0">Read More  <i class="fas fa-long-arrow-alt-right"></i></a> 
+                  </div> 
+              </div>
+              <div class="col-12 col-md-4 mb-4 mb-lg-5 wow fadeIn" data-wow-delay=".9s">
+                  <div class="position-relative"> 
+                      <div class="image-container translate-effect-right">
+                          <a href="#"><img src="assets/custom/images/iot101.png" alt="" class="img-fluid w-100"></a> 
+
+                      </div>
+                      <h2 class="font-18 my-3"><a href="#" class="fables-main-text-color fables-second-hover-color">Exploring Crowdstrike: Enhancing Security with SOC and EDR</a></h2>
+                       
+                      <p class="fables-forth-text-color font-14 mb-2">
+                        It’s not just malware anymore. Determined threat actors and APTs are sophisticated and resourceful in…                      </p>
+                      <a href="" class="btn fables-second-text-color fables-main-hover-color p-0 font-15 border-0">Read More  <i class="fas fa-long-arrow-alt-right"></i></a> 
+                  </div> 
+              </div>
+           </div>
+       </div>
+       <div class="fables-light-background-color py-3 py-md-4 py-lg-5">
+           <div class="container">
+            <h2 class="font-35 font-weight-bold fables-main-text-color text-center">Best-in-Class Security Partners</h2> <br>
+            <h2 class="font-20 fables-main-text-color my-md-4 text-center">We partner with the top Identity and Access Management(IAM) and Security Operations Center(SOC) products, and have expertise implementing all of them.</h2>
+               <div class="owl-carousel owl-theme nav-0 carousel-items-6 dots-0">
+                  <div> 
+                      <img src="assets/custom/images/protiviti.jpeg" alt="Fables Template" class="border-hover fables-partner-carousel-img">  
+                  </div>
+                  <div> 
+                      <img src="assets/custom/images/protiviti.jpeg" alt="Fables Template" class="border-hover fables-partner-carousel-img">  
+                  </div>
+                  <div> 
+                      <img src="assets/custom/images/protiviti.jpeg" alt="Fables Template" class="border-hover fables-partner-carousel-img">  
+                  </div>
+                  <div> 
+                      <img src="assets/custom/images/protiviti.jpeg" alt="Fables Template" class="border-hover fables-partner-carousel-img">  
+                  </div>
+                  <div> 
+                      <img src="assets/custom/images/protiviti.jpeg" alt="Fables Template" class="border-hover fables-partner-carousel-img">  
+                  </div>
+                  <div> 
+                      <img src="assets/custom/images/protiviti.jpeg" alt="Fables Template" class="border-hover fables-partner-carousel-img">  
+                  </div>
+                  <div> 
+                      <img src="assets/custom/images/protiviti.jpeg" alt="Fables Template" class="border-hover fables-partner-carousel-img">  
+                  </div>
+                  <div> 
+                      <img src="assets/custom/images/brand-4.jpg" alt="Fables Template" class="border-hover fables-partner-carousel-img">  
+                  </div>
+                  <div> 
+                      <img src="assets/custom/images/brand-4.jpg" alt="Fables Template" class="fborder-hover ables-partner-carousel-img">  
+                  </div>
+
+                </div>  
+           </div>
+       </div>
+     
+</div>
+<!-- /End page content -->
+    
+<!-- Start Footer 2 Background Image  -->
+<div class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-2 mb-5 text-center">
+                <h2 class="font-30 semi-font mb-5">Newsletter</h2>
+                <form class="form-inline position-relative"> 
+                  <div class="form-group fables-subscribe-formgroup"> 
+                    <input type="email" class="form-control fables-subscribe-input fables-btn-rouned" placeholder="Your Email">
+                  </div>
+                  <button type="submit" class="btn fables-second-background-color fables-btn-rouned fables-subscribe-btn">Subscribe</button>
+                </form>
+                
+            </div>
+            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">IDMCODES</h2>
+                <!-- <a href="#" class="fables-second-border-color border-bottom pb-3 d-block mb-3 mt-minus-13"><img src="assets/custom/images/fables-logo.png" alt="fables template"></a> -->
+                <!-- <a href="#" class="fables-second-border-color border-bottom pb-3 d-block mb-3 mt-minus-13"><img src="assets/custom/images/idmcodes_logo.png" alt="fables template"></a> -->
+                <p class="font-15 fables-third-text-color">
+                    IDMCodes is a global consulting firm committed to empowering leaders and organizations with tailored expertise, innovation, and collaborative excellence. Specializing in technology, analytics, risk management, compliance, and more, we tackle critical business challenges. Our unique approach combines deep expertise and objective insights to help you confidently navigate the future.
+                    <br><br>
+                    We prioritize excellence, integrity, and diversity, fostering a workforce that values collaboration and innovation. With IDMCodes as your strategic partner, you're not just facing the future - you're shaping it with unwavering confidence. Join us on this transformative journey, and together, we'll build a brighter, more successful tomorrow. 
+                </p> 
+                
+            </div>
+             
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">Contact us</h2>
+               <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Address Information</h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">Hyderabad</p>
+                </div>
+                <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Call Now </h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">+91 9642002087</p>
+                </div>
+                <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Mail </h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">sivasankar@idmcodes.com</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3">EXPLORE OUR SITE</h2>
+                <ul class="nav fables-footer-links">
+                    <li><a href="about1.html">About Us</a></li>
+                    <li><a href="contactus1.html">Contact Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+                      
+        </div> 
+        
+        </div>
+</div>
+<div class="copyright fables-main-background-color mt-0 border-0 white-color">
+        <ul class="nav fables-footer-social-links just-center fables-light-footer-links">
+            <li><a href="#" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-pinterest-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <p class="mb-0">Copyright © Fables 2018. All rights reserved.</p> 
+
+</div>
+    
+<!-- /End Footer 2 Background Image -->
+
+
+
+<script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="assets/vendor/timeline/jquery.timelify.js"></script>
+<script src="assets/vendor/jquery-circle-progress/circle-progress.min.js"></script>
+<script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+<script src="assets/vendor/popper/popper.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
+<script src="assets/vendor/WOW-master/dist/wow.min.js"></script>
+<script src="assets/vendor/owlcarousel/owl.carousel.min.js"></script> 
+<script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+<script src="assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
+<script src="assets/custom/js/custom.js"></script>  
+ 
+</body>
+</html>

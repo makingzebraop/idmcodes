@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+        <!-- animate.css-->  
+        <link href="assets/vendor/animate.css-master/animate.min.css" rel="stylesheet">
+        <!-- Load Screen -->
+        <link href="assets/vendor/loadscreen/css/spinkit.css" rel="stylesheet">
+        <!-- GOOGLE FONT -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+        <!-- Font Awesome 5 -->
+        <link href="assets/vendor/fontawesome/css/fontawesome-all.min.css" rel="stylesheet">
+        <!-- Fables Icons -->
+        <link href="assets/custom/css/fables-icons.css" rel="stylesheet"> 
+        <!-- Bootstrap CSS --> 
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap/css/bootstrap-4-navbar.css" rel="stylesheet">
+        <!-- portfolio filter gallery -->
+        <link href="assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css" rel="stylesheet">
+        <!-- Video Background -->
+        <link href="assets/vendor/video-background/video-background.css" rel="stylesheet"> 
+        <!-- FANCY BOX -->
+        <link href="assets/vendor/fancybox-master/jquery.fancybox.min.css" rel="stylesheet"> 
+        <!-- RANGE SLIDER -->
+        <link href="assets/vendor/range-slider/range-slider.css" rel="stylesheet">
+        <!-- OWL CAROUSEL  --> 
+        <link href="assets/vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+        <link href="assets/vendor/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
+        <!-- FABLES CUSTOM CSS FILE -->
+        <link href="assets/custom/css/custom.css" rel="stylesheet">
+        <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
+        <link href="assets/custom/css/custom-responsive.css" rel="stylesheet">
+        <style>
+
+            /* CSS for the sidebar */
+            .sidebar {
+                width: 30%;
+                /* float: left; */
+                padding: 20px;
+                box-sizing: border-box;
+                background: linear-gradient(135deg, rgba(229, 77, 66, 1), #f7c57a);
+                color: #333; /* Text color */
+                margin-bottom: 20px;
+                margin-top: 50px;
+                display: flex;
+                
+            }
+    
+            /* CSS for the main content */    
+    
+        </style>
+    
+</head>
+<body>
+    
+    <div class="search-section">
+        <a class="close-search" href="#"></a>
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <form method="post" action="#" class="w-50">
+                <div class="row">
+                    <div class="col-10">
+                        <input type="search" value="" class="form-control palce bg-transparent border-0 search-input" placeholder="Search Here ..." /> 
+                    </div>
+                    <div class="col-2 mt-3">
+                         <button type="submit" class="btn bg-transparent text-white"> <i class="fas fa-search"></i> </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+             
+    </div>
+    <!-- /End Top Header -->
+    
+    <!-- Start Fables Navigation -->
+    <div class="fables-navigation fables-main-background-color py-3 py-lg-0">
+        <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-9 pr-md-0">                       
+                        <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
+            
+                            <a class="brand" href="index.html" style="font-weight: bold; font-size: 24px; color: #E54D42;">IDMCODES</a>
+    
+                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fablesNavDropdown" aria-controls="fablesNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                 <span class="fables-iconmenu-icon text-white font-16"></span>
+                             </button>
+                             <div class="collapse navbar-collapse" id="fablesNavDropdown"> 
+                                 <ul class="navbar-nav mx-auto fables-nav">   
+    
+                                     <li class="nav-item dropdown">
+                                         <a class="nav-link dropdown-toggle" href="#" id="sub-nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             services
+                                         </a>
+                                         <ul class="dropdown-menu" aria-labelledby="sub-nav2">
+                                             <li><a class="dropdown-item" href="services.html?service=service1" onclick="showservice('service1')">Advisory services</a></li>
+                                             <li><a class="dropdown-item" href="services.html?service=service2" onclick="showservice('service2')">Managed Security services</a></li>
+                                             <li><a class="dropdown-item" href="services.html?service=service3" onclick="showservice('service3')">Oracle Managed services</a></li>
+                                             <li><a class="dropdown-item" href="services.html?service=service4" onclick="showservice('service4')">Implementation services</a></li>
+                                             <li><a class="dropdown-item" href="services.html?service=service5" onclick="showservice('service5')">Professional services</a></li> 
+                                         </ul>
+                                     </li>
+                                     <li class="nav-item dropdown">
+                                         <a class="nav-link dropdown-toggle" href="#" id="sub-nav3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             solutions
+                                         </a>
+                                         <ul class="dropdown-menu" aria-labelledby="sub-nav3">
+                                             <li><a class="dropdown-item" href="solutions.html">Identity Access and Management</a></li>
+                                             <li><a class="dropdown-item" href="solutions.html">Security Operations Center</a></li>
+                                             <li><a class="dropdown-item" href="solutions.html">Infrastrutre services</a></li> 
+                                         </ul>
+                                     </li>
+                                     
+                                     <li class="nav-item dropdown">
+                                         <a class="nav-link dropdown-toggle" href="#" id="sub-nav5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             Resources
+                                         </a>
+                                         <ul class="dropdown-menu" aria-labelledby="sub-nav5">
+                                             <li><a class="dropdown-item" href="blog1.html">Blog</a></li>
+                                             <li><a class="dropdown-item" href="papers.html">Papers</a></li>
+                                         </ul>
+                                     </li> 
+    
+                                     <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="sub-nav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Company
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="sub-nav1">
+                                            <li><a class="dropdown-item" href="about.html">About Idmcodes</a></li>
+                                            <li><a class="dropdown-item" href="carrers.html">Carrers</a></li>
+                                            <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                                            <li><a class="dropdown-item" href="contactus.html">Contact US</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="partners.html" id="sub-nav5"  aria-expanded="false">
+                                            Partners
+                                        </a>
+                                    </li>
+                                 </ul> 
+                     </div>
+                 </nav>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-3 pr-md-0 icons-header-mobile">
+                         <a href="#" class="open-search fables-third-text-color right  top-header-link px-3 px-md-2 px-lg-4 fables-second-hover-color border-0 max-line-height">
+                             <span class="fables-iconsearch-icon"></span>
+                         </a>
+                          <a href="signin.html" class="fables-third-text-color fables-second-hover-color font-13 top-header-link px-3 px-md-2 px-lg-4 max-line-height"><span class="fables-iconuser"></span></a>
+                     </div>
+                    </div>
+                </div>
+        </div>
+    </div> 
+    <!-- end navigation -->
+    <div class="fables-header fables-after-overlay">
+        <div class="container"> 
+            <h2 class="fables-page-title fables-second-border-color">services</h2>
+        </div>
+    </div>  
+    <div class="fables-blog-slider py-4 py-lg-5 fables-light-background-color mb-4 mb-lg-5">
+        <div class="container">
+            <h2 class="fables-main-text-color text-center mb-4 mb-lg-5 font-26 bold-font">All services</h2> 
+            <div class="owl-carousel owl-theme nav-slider">
+                  <div class="text-center"> 
+                     <a href="javascript:void(0);" onclick="showservice('service1')"><img src="assets/custom/images/blog-slider2.jpg" alt="" class="w-100"></a>  
+                     <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service1')" class="fables-main-text-color fables-second-hover-color">
+                        Advisory Services</a></h2>
+                      <p class="fables-fifth-text-color font-14">
+                        We implement and manage security services for global companies. Thinking about Okta, ForgeRock, CyberArk, Gluu, or another leading tool? Contact us.
+                     </p>   
+                  </div>
+                  <div class="text-center"> 
+                    <a href="javascript:void(0);" onclick="showservice('service2')"><img src="assets/custom/images/managed-service-servicepage.png" alt="" class="w-100"></a>  
+                    <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service2')" class="fables-main-text-color fables-second-hover-color">
+                        Security Operation Center</a></h2>
+                     <p class="fables-fifth-text-color font-14">
+                       An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. 
+                    </p>   
+                 </div>
+                 <div class="text-center"> 
+                    <a href="javascript:void(0);" onclick="showservice('service3')"><img src="assets/custom/images/oracle-managed-service.png" alt="" class="w-100"></a>  
+                    <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service3')" class="fables-main-text-color fables-second-hover-color">
+                        Oracle Managed services</a></h2>
+                     <p class="fables-fifth-text-color font-14">
+                       An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. 
+                    </p>   
+                 </div>
+                 <div class="text-center"> 
+                    <a href="javascript:void(0);" onclick="showservice('service4')"><img src="assets/custom/images/implement-service.png" alt="" class="w-100"></a>  
+                    <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service4')" class="fables-main-text-color fables-second-hover-color">
+                        Implementation services </a></h2>
+                     <p class="fables-fifth-text-color font-14">
+                       An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. 
+                    </p>   
+                 </div>
+                 <div class="text-center"> 
+                    <a href="javascript:void(0);" onclick="showservice('service5')"><img src="assets/custom/images/blog-slider1.jpg" alt="" class="w-100"></a>  
+                    <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service5')" class="fables-main-text-color fables-second-hover-color">
+                        Professional services </a></h2>
+                     <p class="fables-fifth-text-color font-14">
+                       An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. 
+                    </p>   
+                 </div>
+                 <div class="text-center"> 
+                    <a href="javascript:void(0);" onclick="showservice('service6')"><img src="assets/custom/images/identity-goverannace-service.png" alt="" class="w-100"></a>  
+                    <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service6')" class="fables-main-text-color fables-second-hover-color">
+                        Identity Governance </a></h2>
+                     <p class="fables-fifth-text-color font-14">
+                       An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. 
+                    </p>   
+                 </div>
+                 <div class="text-center"> 
+                    <a href="javascript:void(0);" onclick="showservice('service7')"><img src="assets/custom/images/accessmanagment-service.png" alt="" class="w-100"></a>  
+                    <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service7')" class="fables-main-text-color fables-second-hover-color">
+                        Access Management </a></h2>
+                     <p class="fables-fifth-text-color font-14">
+                       An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. 
+                    </p>   
+                 </div>
+                 <div class="text-center"> 
+                    <a href="javascript:void(0);" onclick="showservice('service8')"><img src="assets/custom/images/directory-services.png" alt="" class="w-100"></a>  
+                    <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service8')" class="fables-main-text-color fables-second-hover-color">
+                        Directory services </a></h2>
+                     <p class="fables-fifth-text-color font-14">
+                       An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. 
+                    </p>   
+                 </div>
+                 <div class="text-center"> 
+                    <a href="javascript:void(0);" onclick="showservice('service9')"><img src="assets/custom/images/blog-slider1.jpg" alt="" class="w-100"></a>  
+                    <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service9')" class="fables-main-text-color fables-second-hover-color">
+                        Federation services </a></h2>
+                     <p class="fables-fifth-text-color font-14">
+                       An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. 
+                    </p>   
+                 </div>
+                 <div class="text-center"> 
+                    <a href="javascript:void(0);" onclick="showservice('service10')"><img src="assets/custom/images/iamcheck-service.png" alt="" class="w-100"></a>  
+                    <h2 class="font-18 semi-font mt-3 mb-2"><a href="javascript:void(0);" onclick="showservice('service10')" class="fables-main-text-color fables-second-hover-color">
+                        IAM Health Check </a></h2>
+                     <p class="fables-fifth-text-color font-14">
+                       An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. 
+                    </p>   
+                 </div>
+           </div> 
+        </div>
+   </div>
+ 
+</div>
+
+    <div class="main-content">
+        <div id="service1-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">Advisory <br><span class="white-color font-40 bold-font mt-2 d-block">services</span></h2>
+                                <p class="fables-third-text-color">
+                                    Need to understand your current risks?
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">what is IAM Assessment?</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font"> An IAM assessment is an evaluation of an organization's Identity and Access Management(IAM) architecture to identify any potential weaknesses. The assessment analyzes the system's configuration, software, information handling processes, and user practices against an established set of security standards. With this assessment we consult,build a roadmap and recommend services that meet your requirements. </p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">What is security Assessment?</h2>
+                                                       <div class="font-14 text-white">
+                                                        A security assessment is an evaluation of a company's information system to identify potential weaknesses in the security posture of the organization. The audit analyzes the system's physical configuration and environment, software, information handling processes, and user practices against an established set of security criteria</p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold">Advisory services: Benefits & Outcomes</h3>  
+                                <p class="font-weight-light fables-third-text-color">"I need advise on understanding and resolving my security risks."Idmcodes experts advise and architect services to solve your existing security infrastructure and vulnerabilities."
+                                </p>
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+         </div>  
+
+        <div id="service2-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">Managed Security<br><span class="white-color font-40 bold-font mt-2 d-block">services</span></h2>
+                                <p class="fables-third-text-color">
+                                    Need ongoing IT support? We offer 24/7 IAM and SOC services
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">Monitoring and Response</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font"> An IAM As your MSSP, idmcodes costs only about 15-20% of the total cost associated with hiring full-time employees. Plus, our expert team works around the clock, not just during regular business hours.</p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Evolve</h2>
+                                                       <div class="font-14 text-white">
+                                                        We upgrade and maintain your security services on a daily, weekly, and monthly basis. This ensures your security is up-to-date, maximizing compatibility, and avoiding unnecessary downtime.</p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Take Responsibility</h2>
+                                                       <div class="font-14 text-white">
+                                                        We assign individual product specialists to your management team. For example, if you just migrated to Okta, we have an Okta specialist assigned to your team. This ensures maximum security, faster response to threats, and a better client experience.</p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold">Managed Security services: Benefits & Outcomes</h3>  
+                                <p class="font-weight-light fables-third-text-color">"I need advise on understanding and resolving my security risks."Idmcodes experts advise and architect services to solve your existing security infrastructure and vulnerabilities."
+                                </p>
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="service3-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">Oracle Managed<br><span class="white-color font-40 bold-font mt-2 d-block">services</span></h2>
+                                <p class="fables-third-text-color">
+                                    We proudly hold the position of a leading Oracle accredited partner
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">Oracle E-Business Suite (EBS)</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font"> Integrated suite of business applications 
+ 
+                                                                Modules include finance, supply chain, HR, CRM, and more 
+                                                                 
+                                                                Centralized repository for data 
+                                                                 
+                                                                Customizable to fit specific business needs 
+                                                                 
+                                                                Integrates with other Oracle products</p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Oracle Fusion Middleware (FMW): </h2>
+                                                       <div class="font-14 text-white">
+                                                        Supports diverse technologies, frameworks, and programming languages. Offers a wide range of components and tools.  Enables seamless integration between systems and applications. Supports SOA, mobile, cloud, and IoT applications.</p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">PeopleSoft Enterprise Resource Planning (ERP) Software Suite: </h2>
+                                                       <div class="font-14 text-white">
+                                                        Enterprise resource planning (ERP) software by Oracle Designed for large organizations and institutions Comprehensive suite of applications for finance, HR, supply chain, and more Enables centralized management of business processes </p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Oracle Data Guard services:   </h2>
+                                                       <div class="font-14 text-white">
+                                                        Oracle Data Guard: High-availability and disaster recovery service. 
+ 
+                                                        Replicates Oracle databases to a standby system. 
+                                                         
+                                                        Ensures data protection, availability, and failover capabilities. 
+                                                         
+                                                        Operates in primary/standby configuration. 
+                                                          </p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+               
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold">Oracle Managed services by IDMCODES for your Business</h3>  
+                                <p class="font-weight-light fables-third-text-color">We offer complex project implementation across domains such as banking, finance, education, government, hospitality, manufacturing, and technology with skilled Oracle resources, flexible delivery model, customization, and tailored services.
+
+                                    Along with 24/7 technical support, effective processes, 99.9% uptime, non-disruptive implementations as well as post-implementation and ongoing technical support including experience with on-premises, off-premises, and cloud products.
+                                </p>
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="service4-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">Implementation<br><span class="white-color font-40 bold-font mt-2 d-block">services</span></h2>
+                                <p class="fables-third-text-color">
+                                    Need a security service quickly?
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">Integration services</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font"> Our specialists implement individual IAM and SOC services you need with uncompromising expertise. We ensure that your new IAM and SOC service is operating as expected and your data is safe and secure.</p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Implementation services </h2>
+                                                       <div class="font-14 text-white">
+                                                        As a customer, I want a seamless implementation that jells with my current infrastructure.” We assign individual Product Specialists for your implementation. The result is truly an expert implementation that maximizes the security of your data.</p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Zero Downtime Implementation </h2>
+                                                       <div class="font-14 text-white">
+                                                        We stage your services to minimize downtime and double-check compatibility across all legacy systems, on-premise data centers, and cloud data centers./p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Questions? Schedule a free consultation </h2>
+                                                       <div class="font-14 text-white">
+                                                        We implement IAM services for clients every day. Schedule a free consultation to talk to our experts. 
+                                                          </p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+               
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold">Implementation services: Benefits & Outcomes</h3>  
+                                <p class="font-weight-light fables-third-text-color">"I want to implement security services ASAP, without compromising the quality." We have experience in implementing security services for customers like you. Our specialists implement the individual services you need with uncompromising expertise on a fast-track timeline.""
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="service5-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">Professional<br><span class="white-color font-40 bold-font mt-2 d-block">services</span></h2>
+                                <p class="fables-third-text-color">
+                                    Need expert IT Staff? We have a team of dedicated experts
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">Security Consultation</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font"> Our Our security experts have years of experience and consult organizations worldwide. Being a leader in Managed Security service Provider (MSSP), we’ll help you integrate IAM and SOC services to keep your security infrastructure in its optimal state.</p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Recommend & Build services </h2>
+                                                       <div class="font-14 text-white">
+                                                        Being a leading Managed Security service Provider (MSSP), our IAM experts will help you choose the right service that suits your needs and keeps your security infrastructure in its optimal state.</p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Complaince & Governance services</h2>
+                                                       <div class="font-14 text-white">
+                                                        Our IAM and SOC experts can provide compliance and regulatory reports that will help you get a complete overview of your security infrastructure.</p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Questions? Schedule a free consultation </h2>
+                                                       <div class="font-14 text-white">
+                                                        We implement IAM services for clients every day. Schedule a free consultation to talk to our experts. 
+                                                          </p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+               
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold">Professional services: Benefits & Outcomes</h3>  
+                                <p class="font-weight-light fables-third-text-color">"I want to consult and hire specialists to build an IAM and SOC infrastructure." We at idmcodes have professional security experts that consult on IAM and SOC technologies.</p>
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="service6-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">Identity<br><span class="white-color font-40 bold-font mt-2 d-block">Governance</span></h2>
+                                <p class="fables-third-text-color">
+                                    Looking for audit and compliance requirements?
+                                    
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">Identity Governance</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font"> Our If your organization is looking to harden your Infrastructure or meet audit and compliance requirements, Identity Works LLC can help get you there. Our experience in this area within Identity and Access Management will ensure you only grant authorized users the right to use a service.</p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Questions? Schedule a free consultation </h2>
+                                                       <div class="font-14 text-white">
+                                                        We implement IAM services for clients every day. Schedule a free consultation to talk to our experts. 
+                                                          </p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+               
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold">Identity Governance services: Benefits & Outcomes</h3>  
+                                <p class="font-weight-light fables-third-text-color">"I want to consult and hire specialists to build an IAM and SOC infrastructure." We at idmcodes have professional security experts that consult on IAM and SOC technologies.</p>
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="service7-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">Access<br><span class="white-color font-40 bold-font mt-2 d-block">Management</span></h2>
+                                <p class="fables-third-text-color">
+                                    Looking for Access Management?
+                                    
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">Access Management</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font">If your organization is looking to harden your Infrastructure or meet audit and compliance requirements, Identity Works LLC can help get you there. Our experience in this area within Identity and Access Management will ensure you only grant authorized users the right to use a service</p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Questions? Schedule a free consultation </h2>
+                                                       <div class="font-14 text-white">
+                                                        We implement IAM services for clients every day. Schedule a free consultation to talk to our experts. 
+                                                          </p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+               
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold">Access management services: Benefits & Outcomes</h3>  
+                                <p class="font-weight-light fables-third-text-color">"I want to consult and hire specialists to build an IAM and SOC infrastructure." We at idmcodes have professional security experts that consult on IAM and SOC technologies.</p>
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="service8-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">Directory<br><span class="white-color font-40 bold-font mt-2 d-block">services</span></h2>
+                                <p class="fables-third-text-color">
+                                    Looking for Directory services?
+                                    
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">Directory services</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font">If your looking to implement, upgrade or integrate directory services into your Identity & Access Management system, Identity Works LLC can help. Our consultants have years of experience working with Active Directory, OID, OUD, ODSEE, OVD, Novell, and almost any other LDAP v3 compliant directories.</p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Questions? Schedule a free consultation </h2>
+                                                       <div class="font-14 text-white">
+                                                        We implement IAM services for clients every day. Schedule a free consultation to talk to our experts. 
+                                                          </p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+               
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold"> Directory services: Benefits & Outcomes</h3>  
+                                <p class="font-weight-light fables-third-text-color">"I want to consult and hire specialists to build an IAM and SOC infrastructure." We at idmcodes have professional security experts that consult on IAM and SOC technologies.</p>
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="service9-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">Federation<br><span class="white-color font-40 bold-font mt-2 d-block">services</span></h2>
+                                <p class="fables-third-text-color">
+                                    Looking for Federation services?
+                                    
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">Directory services</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font">Identity Works LLC can help your organization with user access provisioning and authentication to cloud based services. By providing federation capabilities organizations can often reduce their level of complexity when it comes to managing identities in the cloud.</p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Questions? Schedule a free consultation </h2>
+                                                       <div class="font-14 text-white">
+                                                        We implement IAM services for clients every day. Schedule a free consultation to talk to our experts. 
+                                                          </p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+               
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold"> Federation services: Benefits & Outcomes</h3>  
+                                <p class="font-weight-light fables-third-text-color">"I want to consult and hire specialists to build an IAM and SOC infrastructure." We at idmcodes have professional security experts that consult on IAM and SOC technologies.</p>
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="service10-content" >
+            <div class="container-fluid my-0 my-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-2 p-0">
+                        <div class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                           <div class="text-rotate">
+                                <h2 class="text-white font-25">IAM Health</Head></Head><br><span class="white-color font-40 bold-font mt-2 d-block">Check</span></h2>
+                                <p class="fables-third-text-color">
+                                    Looking for IAM Heath Check services?
+                                    
+                                </p>
+                           </div>
+                        </div>
+                   </div>
+                    <div class="col-12 col-lg-10 p-0">
+                        <div class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                             <div class="container z-index position-relative">  
+                                 <div class="row">
+                                     <div class="col-12 col-lg-10 offset-lg-2">  
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".4s"> 
+                                                  <div class="row text-center text-md-left">
+                                                      <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0"> 
+                                                          <span class="fables-second-text-color font-40"></span>
+                                                      </div>
+                                                      <div class="col-12 col-md-9 pl-md-0">
+                                                          <h2 class="text-white font-19 semi-font mb-2">IAM Health Check</h2>
+                                                          <div class="font-14 text-white">
+                                                            <p class="font-10 semi-font">Identity Works LLC can provide you with an comprehensive health check on your Identity Management system. Our most senior architects will work closely with your subject matter experts to learn the benefits and challenges of your existing implementation. We analyze everything from your infrastructure, configuration, and business processes. The result of our health check is a report with our findings and recommendations to get your identity and access management program back on track.</p> <br>
+                                                          </div>
+                                                      </div>
+                                                  </div> 
+                                              </div>
+
+                                            <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown" data-wow-delay=".8s"> 
+                                                <div class="row text-center text-md-left">
+                                                    <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                        <span class="fables-second-text-color font-40"></span>
+                                                    </div>
+                                                    <div class="col-12 col-md-9 pl-md-0">
+                                                       <h2 class="text-white font-19 semi-font mb-2">Questions? Schedule a free consultation </h2>
+                                                       <div class="font-14 text-white">
+                                                        We implement IAM services for clients every day. Schedule a free consultation to talk to our experts. 
+                                                          </p> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+
+                                          </div> 
+                                     </div>
+                                 </div>
+                             </div>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+               
+            <div class="fables-testimonial fables-after-overlay bg-rules py-4 py-lg-5" style="background-image: url(assets/custom/images/index-overlay.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 offset-lg-2 text-center wow zoomIn position-relative z-index"> 
+                                <h3 class="fables-second-text-color mb-3 font-30 font-weight-bold"> IAM Health Check services: Benefits & Outcomes</h3>  
+                                <p class="font-weight-light fables-third-text-color">"I want to consult and hire specialists to build an IAM and SOC infrastructure." We at idmcodes have professional security experts that consult on IAM and SOC technologies.</p>
+                                <a href="#" class="btn fables-second-border-color fables-second-text-color rounded-0 my-4 py-2 px-5 position-relative z-index fables-second-hover-background-color">Learn More</a>    
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add more service content sections as needed -->
+    </div>
+
+
+<div class="copyright fables-main-background-color mt-0 border-0 white-color">
+    <ul class="nav fables-footer-social-links just-center fables-light-footer-links">
+        <li><a href="#" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-pinterest-square"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+    <p class="mb-0">Copyright © Fables 2018. All rights reserved.</p> 
+    </div>
+
+    
+    
+<!-- Start Footer 2 Background Image  -->
+<div class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-2 mb-5 text-center">
+                <h2 class="font-30 semi-font mb-5">Newsletter</h2>
+                <form class="form-inline position-relative"> 
+                  <div class="form-group fables-subscribe-formgroup"> 
+                    <input type="email" class="form-control fables-subscribe-input fables-btn-rouned" placeholder="Your Email">
+                  </div>
+                  <button type="submit" class="btn fables-second-background-color fables-btn-rouned fables-subscribe-btn">Subscribe</button>
+                </form>
+                
+            </div>
+            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">IDMCODES</h2>
+                <!-- <a href="#" class="fables-second-border-color border-bottom pb-3 d-block mb-3 mt-minus-13"><img src="assets/custom/images/fables-logo.png" alt="fables template"></a> -->
+                <!-- <a href="#" class="fables-second-border-color border-bottom pb-3 d-block mb-3 mt-minus-13"><img src="assets/custom/images/idmcodes_logo.png" alt="fables template"></a> -->
+                <p class="font-15 fables-third-text-color">
+                    IDMCodes is a global consulting firm committed to empowering leaders and organizations with tailored expertise, innovation, and collaborative excellence. Specializing in technology, analytics, risk management, compliance, and more, we tackle critical business challenges. Our unique approach combines deep expertise and objective insights to help you confidently navigate the future.
+                    <br><br>
+                    We prioritize excellence, integrity, and diversity, fostering a workforce that values collaboration and innovation. With IDMCodes as your strategic partner, you're not just facing the future - you're shaping it with unwavering confidence. Join us on this transformative journey, and together, we'll build a brighter, more successful tomorrow. 
+                </p> 
+                
+            </div>
+             
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">Contact us</h2>
+               <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Address Information</h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">Hyderabad</p>
+                </div>
+                <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Call Now </h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">+91 9642002087</p>
+                </div>
+                <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Mail </h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">sivasankar@idmcodes.com</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3">EXPLORE OUR SITE</h2>
+                <ul class="nav fables-footer-links">
+                    <li><a href="about1.html">About Us</a></li>
+                    <li><a href="contactus1.html">Contact Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+                      
+        </div> 
+        
+        </div>
+</div>
+
+    
+    
+
+    
+
+
+    <!-- JavaScript to show/hide service content -->
+    <script>
+        // Function to get URL parameters by name
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+    
+        // Function to show the selected service content
+        function showSelectedservice() {
+            var serviceParam = getParameterByName('service');
+    
+            // Hide all service content sections
+            var serviceContents = document.querySelectorAll('.main-content > div');
+            for (var i = 0; i < serviceContents.length; i++) {
+                serviceContents[i].style.display = 'none';
+            }
+    
+            // Show the selected service content based on the service parameter
+            if (serviceParam) {
+                var selectedservice = document.getElementById(serviceParam + '-content');
+                if (selectedservice) {
+                    selectedservice.style.display = 'block';
+                }
+            }
+        }
+    
+        // Call the function to show the selected service content when the page loads
+        window.onload = showSelectedservice;
+
+            // Function to show the selected service content
+    function showservice(serviceId) {
+        // Hide all service content sections
+        var serviceContents = document.querySelectorAll('.main-content > div');
+        for (var i = 0; i < serviceContents.length; i++) {
+            serviceContents[i].style.display = 'none';
+        }
+
+        // Show the selected service content based on the service ID
+        var selectedservice = document.getElementById(serviceId + '-content');
+        if (selectedservice) {
+            selectedservice.style.display = 'block';
+        }
+    }
+
+    </script>
+    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+    <script src="assets/vendor/jquery-circle-progress/circle-progress.min.js"></script>
+    <script src="assets/vendor/popper/popper.min.js"></script>
+    <script src="assets/vendor/WOW-master/dist/wow.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
+    <script src="assets/vendor/portfolio-filter-gallery/jquery.isotope.min.js"></script>
+    <script src="assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.js"></script>
+    <script src="assets/vendor/owlcarousel/owl.carousel.min.js"></script>  
+    <script src="assets/vendor/timeline/jquery.timelify.js"></script>
+    <script src="assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
+    <script src="assets/vendor/timeline/timeline.js"></script>
+    <script src="assets/vendor/timeline/modernizr.js"></script> 
+    <script src="assets/custom/js/custom.js"></script> 
+
+</body>
+</html>
